@@ -9,7 +9,11 @@ function App() {
         <a href="/">My Shopping Cart</a>
       </header>
       <main>
-        Product Listed
+
+        Product List Here
+
+        
+
     </main>
       <footer>
         All Right Reserved
