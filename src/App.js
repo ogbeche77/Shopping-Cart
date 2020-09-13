@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="grid-container">
       <header>
-        <a href="/">Shopping Cart</a>
+        <a href="/">My Shopping Cart</a>
       </header>
       <main>
         Product Listed
