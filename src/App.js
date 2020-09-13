@@ -9,7 +9,7 @@ function App() {
         <a href="/">Shopping Cart</a>
       </header>
       <main>
-        Product List
+        Product Listed
     </main>
       <footer>
         All Right Reserved
