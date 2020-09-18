@@ -24,3 +24,4 @@ yarn-error.log*
 package-lock.json
 debug.log
 config/default.json
+debug.log
