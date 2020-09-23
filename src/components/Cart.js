@@ -22,7 +22,7 @@ class Cart extends Component {
         const order = {
             name: this.state.name,
             email: this.state.email,
-            address: this.state.addredd,
+            address: this.state.address,
             cartItems: this.props.cartItems
         };
         this.props.createOrder(order);
