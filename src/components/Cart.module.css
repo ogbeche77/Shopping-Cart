@@ -1,0 +1,110 @@
+.cart {
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    border-bottom: 0.1rem grey solid;
+}
+
+.cart-header {
+    border-bottom: 0.1rem grey solid;
+}
+
+.cartItems {
+    padding: 0;
+    width: 100%;
+    list-style-type: none;
+}
+
+.cartItems img {
+    width: 5rem;
+}
+
+.cartItems li {
+    display: flex;
+}
+
+.cartItems li div {
+    padding: 0.5rem;
+}
+
+.cartItems li div:last-child {
+    flex: 1;
+}
+
+.right {
+    text-align: right;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.total>div {
+    font-size: 2rem;
+}
+
+.total>div,
+.total>button {
+    flex: 1;
+}
+
+.closeModal {
+    position: absolute;
+    right: 1rem;
+    top: 2.5rem;
+    z-index: 1000;
+}
+
+.orderDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%
+}
+
+.orderDetails li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.orderDetails li div {
+    padding: 10px;
+}
+
+.successMessage {
+    color: blue;
+}
+
+.button {
+    padding: 1rem;
+    border: 0.1rem lightseagreen solid;
+    background-color: darkkhaki;
+    cursor: pointer;
+    border-radius: 8%;
+}
+
+form {
+    width: 100%;
+}
+
+.formContainer {
+    width: 100%;
+    padding: 0;
+    list-style-type: none;
+}
+
+.formContainer li {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+input {
+    padding: 1rem;
+    border: 0.1rem grey solid;
+}
