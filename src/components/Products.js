@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import style from './Products.module.css';
 import formatCurrency from "../util";
 import Fade from "react-reveal/Fade";
 import Modal from "react-modal";
@@ -30,21 +31,21 @@ class Products extends Component {
                     {
                         !this.props.products ? (<div>Loading......</div>
                         ) : (
-                                <ul className="products">
+                                <ul className={style.products}>
                                     {this.props.products.map(product => (
                                         <li key={product._id}>
-                                            <div className="product">
+                                            <div className={style.product}>
                                                 <a href={"#" + product._id} onClick={() => this.openModal(product)}>
                                                     <img src={product.image} alt={product.title}></img>
                                                     <p>
                                                         {product.title}
                                                     </p>
                                                 </a>
-                                                <div className="product-price">
+                                                <div className={style.productPrice}>
                                                     <div>{formatCurrency(product.price)}</div>
 
 
-                                                    <button onClick={() => this.props.addToCart(product)} className="button primary">
+                                                    <button onClick={() => this.props.addToCart(product)} className={style.button}>
                                                         Add to Cart
                                 </button>
                                                 </div>
@@ -60,10 +61,10 @@ class Products extends Component {
                 </Fade>
                 {product && (<Modal isOpen={true} onRequestClose={this.closeModal}>
                     <Zoom>
-                        <button className="close-modal" onClick={this.closeModal}> x </button>
-                        <div className="product-details">
+                        <button className={style.closeModal} onClick={this.closeModal}> x </button>
+                        <div className={style.productDetails}>
                             <img src={product.image} alt={product.title}></img>
-                            <div className="product-details-description">
+                            <div className={style.productDetailsDescription}>
                                 <p>
                                     <strong>{product.title}</strong>
                                 </p>
@@ -75,15 +76,15 @@ class Products extends Component {
                                     {product.availableSizes.map(x => (
                                         <span>
 
-                                            {" "} <button className="button"> {x} </button>
+                                            {" "} <button className={style.button}> {x} </button>
 
                                         </span>
                                     ))}
                                 </p>
-                                <div className="product-price">
+                                <div className={style.productPrice}>
 
                                     <div>{formatCurrency(product.price)}</div>
-                                    <button className="button primary" onClick={() => {
+                                    <button className={style.button} onClick={() => {
                                         this.props.addToCart(product)
                                         this.closeModal();
                                     }}> Add To Cart</button>
