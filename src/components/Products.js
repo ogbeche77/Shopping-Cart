@@ -37,9 +37,11 @@ class Products extends Component {
                                             <div className={style.product}>
                                                 <a href={"#" + product._id} onClick={() => this.openModal(product)}>
                                                     <img src={product.image} alt={product.title}></img>
-                                                    <p>
-                                                        {product.title}
-                                                    </p>
+                                                    <div className={style.productTitle}>
+                                                        <p>
+                                                            {product.title}
+                                                        </p>
+                                                    </div>
                                                 </a>
                                                 <div className={style.productPrice}>
                                                     <div>{formatCurrency(product.price)}</div>
@@ -72,8 +74,8 @@ class Products extends Component {
                                     {product.description}
                                 </p>
                                 <p>
-                                    Available Sizes:{" "}
-                                    {product.availableSizes.map(x => (
+                                    Available Types:{" "}
+                                    {product.availableTypes.map(x => (
                                         <span>
 
                                             {" "} <button className={style.button}> {x} </button>
