@@ -18,16 +18,16 @@ class Filter extends Component {
                         </select>
                     </div>
 
-                    <div className="filter-size">
+                    <div className={style.filterSize}>
                         Filter
                 <select value={this.props.size} onChange={(e) => this.props.filterProducts(this.props.products, e.target.value)}>
                             <option value="">ALL</option>
-                            <option value="XS">XS</option>
-                            <option value="S">S</option>
-                            <option value="M">M</option>
-                            <option value="L">L</option>
-                            <option value="XL">XL</option>
-                            <option value="XXL">XXL</option>
+                            <option value="Simple">Simple</option>
+                            <option value="Elegant">Elegant</option>
+                            <option value="Safari">Safari</option>
+                            <option value="Splendid">Splendid</option>
+                            <option value="Luxury">Luxury</option>
+                            <option value="Queens">Queens</option>
                         </select>
                     </div>
 
