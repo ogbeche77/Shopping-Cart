@@ -8,6 +8,8 @@ html {
 body #root {
   height: 100vh;
   margin: 0;
+
+
 }
 
 body,
@@ -17,6 +19,8 @@ button,
 textarea {
   font-family: Montserrat, Arial, Helvetica, sans-serif;
   font-size: 1.6rem;
+  background-color: #faf3dd;
+
 }
 
 .grid-container {
@@ -28,6 +32,8 @@ textarea {
   grid-template-rows: 5rem 1fr 5rem;
   grid-template-columns: 1fr;
   height: 100%;
+
+
 }
 
 a {
@@ -40,14 +46,18 @@ a:hover {
 
 header {
   grid-area: header;
-  background-color: lightskyblue;
+  background-color: #4a4e69;
   display: flex;
   align-items: center;
+  justify-content: center;
   padding: 0.5rem;
+  font-size: 2rem;
+
 }
 
 header a {
   text-decoration: none;
+  color: white;
 }
 
 main {
@@ -56,8 +66,8 @@ main {
 
 footer {
   grid-area: footer;
-  background-color: lightskyblue;
-  color: black;
+  background-color: #4a4e69;
+  color: white;
   display: flex;
   justify-content: center;
   align-items: center;
