@@ -16,7 +16,7 @@
 }
 
 .cartItems img {
-    width: 5rem;
+    width: 16rem;
 }
 
 .cartItems li {
@@ -24,11 +24,11 @@
 }
 
 .cartItems li div {
-    padding: 0.5rem;
+    padding: 1.5rem;
 }
 
 .cartItems li div:last-child {
-    flex: 1;
+    flex: 1.5;
 }
 
 .right {
