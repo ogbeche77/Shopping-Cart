@@ -15,7 +15,7 @@ export const filterProducts = (products, size) => (dispatch) => {
         payload: {
             size: size,
             items: size === "" ? products :
-                products.filter(x => x.availableSizes.indexOf(size) >= 0),
+                products.filter(x => x.availableTypes.indexOf(size) >= 0),
         },
     })
 }
