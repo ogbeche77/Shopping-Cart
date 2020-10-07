@@ -49,7 +49,7 @@ class Cart extends Component {
                         <button className={style.closeModal} onClick={this.closeModal}>x</button>
                         <div className={style.orderDetails}>
                             <h3 className={style.successMessage}> Your order has been placed</h3>
-                            <h2>Order {order._id}</h2>
+                            <h2>Your Order ID is: {order._id}</h2>
                             <ul>
                                 <li>
                                     <div>Name:</div>
