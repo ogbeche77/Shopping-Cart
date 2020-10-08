@@ -1,51 +1,51 @@
 {
     "products": [{
             "_id": "dress1",
-            "image": "/images/dress1.jpg",
-            "title": "Midi sundress with shirring detail",
-            "description": "This is for all the latest trends, no matter who you are, where you’re from and what you’re up to. Exclusive to ASOS, our universal brand is here for you, and comes in all our fit ranges: ASOS Curve, Tall, Petite and Maternity. Created by us, styled by you.",
-            "availableSizes": ["X", "L", "XL", "XXL"],
-            "price": 29.9
+            "image": "/images/image1.jpeg",
+            "title": "Pocket Spring Mega Sofa",
+            "description": "This mega sofa in gray with pocket spring core and cushions turns the living room into a relaxation room with a feel-good factor. The dimensions of approx. 276 x 145 cm (W x D) speak for themselves: you can really stretch out on the couch. The pocket spring core on a base frame offers excellent conditions for taking a break from everyday life. You also have plenty of foam-filled comfort enhancers available",
+            "availableTypes": ["Simple", "Elegant", "Safari", "Luxury"],
+            "price": 1129.9
         },
         {
             "_id": "dress2",
-            "image": "/images/dress2.jpg",
-            "title": "Midi sundress with ruched front",
-            "description": "This is for all the latest trends, no matter who you are, where you’re from and what you’re up to. Exclusive to ASOS, our universal brand is here for you, and comes in all our fit ranges: ASOS Curve, Tall, Petite and Maternity. Created by us, styled by you.",
-            "availableSizes": ["X", "M", "L"],
-            "price": 18.9
+            "image": "/images/image2.jpeg",
+            "title": "Nostalgic Chesterfield Sofa",
+            "description": "This Chesterfield sofa in gray brings a nostalgic atmosphere into your four walls. The three-seater impresses with the characteristic quilting in a diamond pattern with button details. The color scheme in elegant gray also exudes British nobility. The feet are made of solid eucalyptus wood and are painted black to match the color of the seat. Thus, they underline the luxurious vintage look",
+            "availableTypes": ["Simple", "Elegant", "Luxury"],
+            "price": 2119.9
         },
         {
             "_id": "dress3",
-            "image": "/images/dress3.jpg",
-            "title": "Midi dress in pink ditsy floral",
-            "description": "This is for all the latest trends, no matter who you are, where you’re from and what you’re up to. Exclusive to ASOS, our universal brand is here for you, and comes in all our fit ranges: ASOS Curve, Tall, Petite and Maternity. Created by us, styled by you.",
-            "availableSizes": ["X", "M", "L"],
-            "price": 14.9
+            "image": "/images/image3.jpeg",
+            "title": "Velvet Elegant Retrieving Sofa",
+            "description": "This sofa in pink with a velvet cover is the ideal retreat to spend moments with family and friends. The couch impresses with its chic Chesterfield design. The stylish quilting that adorns the armrests and backrests is characteristic of this. The soft polyester cover with velvet surface in dusky pink rounds off the elegant look, which looks good from every angle thanks to the real covered back.",
+            "availableTypes": ["Elegant", "Safari", "Luxury"],
+            "price": 2219.9
         },
         {
             "_id": "dress4",
-            "image": "/images/dress4.jpg",
-            "title": "cami maxi dress in polka dot",
-            "description": "This is for all the latest trends, no matter who you are, where you’re from and what you’re up to. Exclusive to ASOS, our universal brand is here for you, and comes in all our fit ranges: ASOS Curve, Tall, Petite and Maternity. Created by us, styled by you.",
-            "availableSizes": ["XL"],
-            "price": 25.9
+            "image": "/images/image4.jpeg",
+            "title": "Unique Eye Catching Sofa",
+            "description": "This mega sofa in comes to your home with a unique eye-catching effect. This is primarily due to the striking mustard yellow color scheme. Black metal feet delicately stand out. Thanks to the real upholstered back, the furniture can also be integrated in the open furnishing style and unfolds its effect perfectly there",
+            "availableTypes": ["Splendid", "Queens"],
+            "price": 2129.9
         },
         {
             "_id": "dress5",
-            "image": "/images/dress5.jpg",
-            "title": "Frill mini dress in yellow polka dot",
-            "description": "This is for all the latest trends, no matter who you are, where you’re from and what you’re up to. Exclusive to ASOS, our universal brand is here for you, and comes in all our fit ranges: ASOS Curve, Tall, Petite and Maternity. Created by us, styled by you.",
-            "availableSizes": ["X", "L", "XL"],
-            "price": 10.9
+            "image": "/images/image5.jpeg",
+            "title": "Landscape Nostalgic Ambience",
+            "description": "Make yourself comfortable: this LANDSCAPE sofa creates a nostalgic ambience in your living room. The elegantly curved armrests and the antique wooden feet make the couch a tasteful piece of jewelry. The warm brown tones emphasize the stylish shape of the mega sofa. Particularly practical",
+            "availableTypes": ["Safari", "Elegant", "Splendid"],
+            "price": 1199.9
         },
         {
             "_id": "dress6",
-            "image": "/images/dress6.jpg",
-            "title": "Midi tea dress in blue and red spot",
-            "description": "This is for all the latest trends, no matter who you are, where you’re from and what you’re up to. Exclusive to ASOS, our universal brand is here for you, and comes in all our fit ranges: ASOS Curve, Tall, Petite and Maternity. Created by us, styled by you.",
-            "availableSizes": ["XL", "XXL"],
-            "price": 49.9
+            "image": "/images/image6.jpeg",
+            "title": "Cushion And Great Comfort",
+            "description": "This mega sofa in green with cushions offers you great comfort. With a width of approx. 300 cm, you don't just choose a favorite place: the whole couch becomes your new place to be. You will feel at home here",
+            "availableTypes": ["Elegant", "Splendid"],
+            "price": 4219.9
         }
     ]
 }
