@@ -13,7 +13,7 @@ class App extends React.Component {
       <Provider store={store}>
         <div className="grid-container">
           <header>
-            <a href="/">My Shopping Cart</a>
+            <strong><a href="/">Sofa Market</a></strong>
           </header>
           <main>
 
@@ -28,8 +28,8 @@ class App extends React.Component {
             </div>
           </main>
           <footer>
-            All Right Reserved
-    </footer>
+            All Right Reserved &copy; {new Date().getFullYear()}
+          </footer>
         </div>
       </Provider>
     );
