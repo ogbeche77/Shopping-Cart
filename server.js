@@ -2,26 +2,19 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 const shortid = require("shortid");
-const config = require("config");
+require('dotenv').config()
+
+//const config = require("config");
 
 const app = express();
 app.use(bodyParser.json());
 
-
-//Database Config to bring in mongoDB/Mongoose
-const db = config.get("mongoURI");
-
-//Connect to Mongo
+//Connect to Mongo & hide MongoDB URI
 mongoose
-    .connect(db, { useUnifiedTopology: true, useNewUrlParser: true, useCreateIndex: true })
+    .connect(process.env.MONGODB_URI,
+        { useUnifiedTopology: true, useNewUrlParser: true, useCreateIndex: true })
     .then(() => console.log("MongoDB is connected")) //shows in terminal to show we are connected
     .catch(err => console.log(err));
-
-/*mongoose.connect("mongodb://localhost/shopping_cart", {
-    useNewUrlParser: true,
-    useCreateIndex: true,
-    useUnifiedTopology: true,
-});*/
 
 const Product = mongoose.model("products", new mongoose.Schema({
     _id: { type: String, default: shortid.generate },
@@ -29,7 +22,7 @@ const Product = mongoose.model("products", new mongoose.Schema({
     description: String,
     image: String,
     price: Number,
-    availableSizes: [String],
+    availableTypes: [String],
 
 }))
 
