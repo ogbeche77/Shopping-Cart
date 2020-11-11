@@ -9,7 +9,7 @@ require('dotenv').config()
 const app = express();
 app.use(bodyParser.json());
 
-//Connect to Mongo & hide MongoDB URI
+//Connect to MongoDB & hide MongoDB URI
 mongoose
     .connect(process.env.MONGODB_URI,
         { useUnifiedTopology: true, useNewUrlParser: true, useCreateIndex: true })
